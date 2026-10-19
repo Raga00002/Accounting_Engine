@@ -1,0 +1,94 @@
+{
+  "party_name_raw": "Das Store",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (BPT)",
+      "qty": 5,
+      "unit": "Bag",
+      "weight_qtl": null,
+      "rate": 1540,
+      "amount": 7700,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (Sri)",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.52,
+      "rate": 5550,
+      "amount": 2886,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Mung Dal",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.6,
+      "rate": 9600,
+      "amount": 5760,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Masur (Etc)",
+      "qty": 3,
+      "unit": "Bag",
+      "weight_qtl": 0.9,
+      "rate": 7500,
+      "amount": 6750,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Matar",
+      "qty": 4,
+      "unit": "Bag",
+      "weight_qtl": 1.2,
+      "rate": 5700,
+      "amount": 6840,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Kosal",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.6,
+      "rate": 9000,
+      "amount": 5400,
+      "struck_out": false,
+      "note": "item name unclear – 'Kosal'/'Kabuli'?"
+    },
+    {
+      "item": "Rice (R.R)",
+      "qty": 5,
+      "unit": "Bag",
+      "weight_qtl": 1.3,
+      "rate": 4130,
+      "amount": 5369,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (Jol)",
+      "qty": 1,
+      "unit": "Bag",
+      "weight_qtl": 0.26,
+      "rate": 17000,
+      "amount": 4420,
+      "struck_out": false,
+      "note": null
+    }
+  ],
+  "total_written": 45125,
+  "raw_text": "Das Store\n5 Bg Rice (BPT) 5x1540 7700\n2 Bg Rice (Sri) .52x5550 2886\n2 Bg Mung Dal .60x9600 5760\n3 Bg Masur (Etc) .90x7500 6750\n4 Bg Matar 1.20x5700 6840\n2 Bg Kosal .60x9000 5400\n5 Bg Rice (R.R) 1.30x4130 5369\n1 Bg Rice (Jol) .26x17000 4420\n45125/-",
+  "notes": [
+    "Printed page number 13 at top right (not a bill number).",
+    "No date on the bill."
+  ]
+}

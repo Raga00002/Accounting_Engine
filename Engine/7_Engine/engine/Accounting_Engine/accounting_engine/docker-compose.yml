@@ -1,0 +1,15 @@
+# Plain deployment: app on http://SERVER-IP:8501 (LAN / behind your own proxy).
+#   docker compose up -d --build
+services:
+  accounting-engine:
+    build: .
+    image: accounting-engine
+    container_name: accounting-engine
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    env_file: .env
+    volumes:
+      - ./data:/app/data                       # master.db, per-user folders, images, exports
+                                               # (the container runs as uid 10001: `sudo chown -R 10001 data` once)
+      - ./.streamlit:/app/.streamlit:ro        # config.toml (+ secrets.toml for Google sign-in)

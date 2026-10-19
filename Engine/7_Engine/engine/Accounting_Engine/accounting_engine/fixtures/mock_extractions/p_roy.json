@@ -1,0 +1,64 @@
+{
+  "party_name_raw": "P. Roy",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (R.R)",
+      "qty": 12,
+      "unit": "Bag",
+      "weight_qtl": null,
+      "rate": null,
+      "amount": null,
+      "struck_out": true,
+      "note": "struck-out first line"
+    },
+    {
+      "item": "Rice (R.R)",
+      "qty": 20,
+      "unit": "Bag",
+      "weight_qtl": 5.2,
+      "rate": 4090,
+      "amount": 21268,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (R.R 10)",
+      "qty": 10,
+      "unit": "Bag",
+      "weight_qtl": 1.0,
+      "rate": 4290,
+      "amount": 4290,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (R.R Usna)",
+      "qty": 12,
+      "unit": "Bag",
+      "weight_qtl": 3.12,
+      "rate": 3450,
+      "amount": 10764,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Mung Dal",
+      "qty": 15,
+      "unit": "Pkt",
+      "weight_qtl": 4.5,
+      "rate": 9550,
+      "amount": 42975,
+      "struck_out": false,
+      "note": null
+    }
+  ],
+  "total_written": 79297,
+  "raw_text": "P. Roy\n[struck] 12 Bg Rice (RR) 12x...\n20 Bg Rice (R.R) 5.20x4090\n10 Bg Rice (R.R 10) 1.00x4290\n12 Bg Rice (R.R Usna) 3.12x3450\n15 Pkt Mung Dal 4.50x9550\n21268 4290 10764 42975 = 79297",
+  "notes": [
+    "Printed page number 02.",
+    "Rate on the Mung Dal line has a struck-out figure before 9550."
+  ]
+}

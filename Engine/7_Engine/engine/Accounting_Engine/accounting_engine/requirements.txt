@@ -1,0 +1,14 @@
+streamlit>=1.50,<2
+anthropic>=0.40
+openpyxl>=3.1
+pypdf>=4.0
+pandas>=2.0
+pydantic>=2.5
+python-dotenv>=1.0
+rapidfuzz>=3.0
+Pillow>=10.0
+streamlit-mic-recorder>=0.0.8
+SpeechRecognition>=3.10
+cryptography>=42
+Authlib>=1.3
+pytest>=8.0

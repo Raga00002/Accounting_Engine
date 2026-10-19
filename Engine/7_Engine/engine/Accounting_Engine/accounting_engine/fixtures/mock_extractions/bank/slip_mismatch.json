@@ -1,0 +1,15 @@
+{
+  "bank_name": "Punjab National Bank",
+  "branch": "Nagaon",
+  "slip_date": "2026-09-20",
+  "account_no": "3730002100302218",
+  "account_name": "Janata Chira Udyog",
+  "amount": 140000,
+  "amount_words": "One lac fourteen thousand only",
+  "mode": "cheque",
+  "cheque_no": "123456",
+  "cheque_bank": "State Bank of India",
+  "depositor": null,
+  "raw_text": "20092026 | 3730002100302218 | Janata Chira Udyog | 140000/- | One lac fourteen thousand only | Cheque 123456 SBI",
+  "notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "party_name_raw": "A.G. Store",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (R.R)",
+      "qty": 50,
+      "unit": "Pkt",
+      "weight_qtl": 13.1,
+      "rate": 4090,
+      "amount": null,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (10)",
+      "qty": 30,
+      "unit": "Bag",
+      "weight_qtl": 3.09,
+      "rate": 4290,
+      "amount": null,
+      "struck_out": false,
+      "note": null
+    }
+  ],
+  "total_written": null,
+  "raw_text": "A.G. Store\n50 Pkt Rice (RR) 13.10x4090\n30 Bg Rice (10) 3.09x4290/-\n640/-",
+  "notes": [
+    "Printed page number 32.",
+    "Amounts and total not written.",
+    "'640/-' written separately at bottom-left – purpose unclear (freight/advance?)."
+  ]
+}

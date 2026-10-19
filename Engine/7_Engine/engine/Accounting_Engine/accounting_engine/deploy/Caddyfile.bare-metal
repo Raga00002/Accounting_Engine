@@ -1,0 +1,19 @@
+# Caddy installed with apt on the same Ubuntu server as run.sh (no Docker).
+#   sudo apt install caddy
+#   sudo cp deploy/Caddyfile.bare-metal /etc/caddy/Caddyfile   (edit the domain and e-mail)
+#   sudo systemctl reload caddy
+# Ports 80/443 must be open; DNS of the domain must point at this server.
+{
+	email you@example.com
+}
+
+bills.example.com {
+	encode gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	reverse_proxy 127.0.0.1:8501
+}

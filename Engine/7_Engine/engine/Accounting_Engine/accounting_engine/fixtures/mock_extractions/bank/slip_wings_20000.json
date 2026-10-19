@@ -1,0 +1,17 @@
+{
+  "bank_name": "Punjab National Bank",
+  "branch": "Nagaon",
+  "slip_date": "2026-08-22",
+  "account_no": "3730002100303271",
+  "account_name": "Wings Industries",
+  "amount": 20000,
+  "amount_words": "Twenty thousand",
+  "mode": "cash",
+  "cheque_no": null,
+  "cheque_bank": null,
+  "depositor": "9435060693",
+  "raw_text": "",
+  "notes": [
+    "Account number partly smudged \u2013 last digits read as ...3271, please verify."
+  ]
+}

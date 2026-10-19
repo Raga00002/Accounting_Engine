@@ -1,0 +1,28 @@
+# systemd unit – run the app at boot on an Ubuntu box (x86_64 or aarch64) WITHOUT Docker.
+#   sudo cp deploy/accounting-engine.service /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now accounting-engine
+#   journalctl -u accounting-engine -f          (the first-run setup token is printed here)
+# Edit User= and WorkingDirectory= to match where you unpacked the folder.
+# For a public domain put Caddy in front (see deploy/Caddyfile.bare-metal) – the app itself then
+# only listens on localhost.
+[Unit]
+Description=Accounting Engine (bill photo/voice -> Tally)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/Accounting_Engine
+Environment=AE_PORT=8501
+# Behind Caddy/nginx on the same machine: listen on localhost only and trust its X-Forwarded-* headers
+# Environment=AE_ADDRESS=127.0.0.1
+# Environment=AE_TRUST_PROXY=1
+# LAN-only use with camera/mic from phones (self-signed certificate):
+# Environment=AE_HTTPS=1
+ExecStart=/bin/bash /home/ubuntu/Accounting_Engine/run.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

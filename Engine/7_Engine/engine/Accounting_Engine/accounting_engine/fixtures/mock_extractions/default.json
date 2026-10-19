@@ -1,0 +1,33 @@
+{
+  "party_name_raw": "Das Store",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (BPT)",
+      "qty": 5,
+      "unit": "Bag",
+      "weight_qtl": null,
+      "rate": 1540,
+      "amount": null,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Mustard Oil",
+      "qty": 10,
+      "unit": "Tin",
+      "weight_qtl": null,
+      "rate": 1480,
+      "amount": null,
+      "struck_out": false,
+      "note": null
+    }
+  ],
+  "total_written": null,
+  "raw_text": "",
+  "notes": [
+    "Parsed from dictation (mock)."
+  ]
+}

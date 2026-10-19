@@ -1,0 +1,17 @@
+{
+  "bank_name": "Punjab National Bank",
+  "branch": null,
+  "slip_date": "2026-09-25",
+  "account_no": "3730002100302218",
+  "account_name": "Janata Chira Udyog",
+  "amount": 300000,
+  "amount_words": "Three lac only",
+  "mode": "cash",
+  "cheque_no": null,
+  "cheque_bank": null,
+  "depositor": null,
+  "raw_text": "",
+  "notes": [
+    "Date boxes read as 25-09-2026 (third digit could be 5 or 9)."
+  ]
+}

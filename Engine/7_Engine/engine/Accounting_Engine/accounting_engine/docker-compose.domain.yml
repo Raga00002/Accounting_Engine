@@ -1,0 +1,36 @@
+# Public deployment with a domain: Caddy terminates HTTPS (free Let's Encrypt certificate,
+# renewed automatically) and proxies to the app. Works on ARM64 servers and x86 VPS alike.
+#
+#   1. point the DNS A/AAAA record of your domain at this server; open ports 80 and 443
+#   2. in .env set   DOMAIN=bills.example.com   and   ACME_EMAIL=you@example.com
+#   3. docker compose -f docker-compose.yml -f docker-compose.domain.yml up -d --build
+#
+# The app port is no longer published – only Caddy is reachable from outside.
+services:
+  accounting-engine:
+    ports: !reset []
+    expose:
+      - "8501"
+    environment:
+      AE_COOKIE_SECURE: "auto"
+      AE_TRUST_PROXY: "1"        # Caddy sets X-Forwarded-For / X-Forwarded-Proto
+
+  caddy:
+    image: caddy:2
+    container_name: accounting-engine-caddy
+    restart: unless-stopped
+    depends_on:
+      - accounting-engine
+    env_file: .env
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

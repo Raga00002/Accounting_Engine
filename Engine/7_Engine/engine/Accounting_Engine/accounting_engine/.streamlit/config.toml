@@ -1,0 +1,7 @@
+[server]
+headless = true
+maxUploadSize = 50            # MB per upload (bill photos / Tally exports)
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

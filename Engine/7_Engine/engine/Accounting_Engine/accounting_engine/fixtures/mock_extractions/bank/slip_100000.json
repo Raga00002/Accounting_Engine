@@ -1,0 +1,17 @@
+{
+  "bank_name": "Punjab National Bank",
+  "branch": null,
+  "slip_date": "2026-08-14",
+  "account_no": "3730002100302218",
+  "account_name": "Janata Chira Udyog",
+  "amount": 100000,
+  "amount_words": "One lac only",
+  "mode": "cash",
+  "cheque_no": null,
+  "cheque_bank": null,
+  "depositor": null,
+  "raw_text": "",
+  "notes": [
+    "Account number written with a leading 0: 03730002100302218."
+  ]
+}

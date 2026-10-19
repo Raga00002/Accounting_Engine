@@ -1,0 +1,16 @@
+# Caddy reverse proxy with automatic Let's Encrypt HTTPS (used by docker-compose.domain.yml).
+# DOMAIN and ACME_EMAIL come from .env. Websockets (Streamlit) are proxied automatically.
+{
+	email {$ACME_EMAIL}
+}
+
+{$DOMAIN} {
+	encode gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	reverse_proxy accounting-engine:8501
+}

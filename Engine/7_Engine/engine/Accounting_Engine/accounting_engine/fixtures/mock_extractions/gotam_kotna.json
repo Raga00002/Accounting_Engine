@@ -1,0 +1,34 @@
+{
+  "party_name_raw": "Gotam Kotna",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (SNY)",
+      "qty": 20,
+      "unit": "Bag",
+      "weight_qtl": 5.2,
+      "rate": 3930,
+      "amount": null,
+      "struck_out": false,
+      "note": "variety abbreviation unclear"
+    },
+    {
+      "item": "Oil Tin",
+      "qty": 40,
+      "unit": "Tin",
+      "weight_qtl": null,
+      "rate": 1480,
+      "amount": null,
+      "struck_out": false,
+      "note": "unit word unclear – read as tins of oil"
+    }
+  ],
+  "total_written": null,
+  "raw_text": "Gotam Kotna\n20 Bg Rice (SNY) 5.20x3930\n40 Tin Oil 40x1480/-",
+  "notes": [
+    "Printed page number 38.",
+    "No amounts or total written."
+  ]
+}

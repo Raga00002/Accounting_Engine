@@ -1,0 +1,84 @@
+{
+  "party_name_raw": "Mohendra",
+  "bill_date": null,
+  "bill_no": null,
+  "txn_type": "sale",
+  "items": [
+    {
+      "item": "Rice (BPT)",
+      "qty": 4,
+      "unit": "Bag",
+      "weight_qtl": null,
+      "rate": 1535,
+      "amount": 6140,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Sona Rice",
+      "qty": 4,
+      "unit": "Bag",
+      "weight_qtl": null,
+      "rate": 1850,
+      "amount": 7400,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (R.R)",
+      "qty": 4,
+      "unit": "Bag",
+      "weight_qtl": 1.04,
+      "rate": 4100,
+      "amount": 4264,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (HMT)",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.52,
+      "rate": 6200,
+      "amount": 3224,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (Sri)",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.52,
+      "rate": 5550,
+      "amount": 2886,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Raha",
+      "qty": 1,
+      "unit": "Bag",
+      "weight_qtl": 0.3,
+      "rate": 10700,
+      "amount": 3210,
+      "struck_out": false,
+      "note": null
+    },
+    {
+      "item": "Rice (Gobi)",
+      "qty": 2,
+      "unit": "Bag",
+      "weight_qtl": 0.6,
+      "rate": 4900,
+      "amount": 2940,
+      "struck_out": true,
+      "note": null
+    }
+  ],
+  "total_written": 27124,
+  "raw_text": "Mohendra\n4 BPT Rice 4x1535 6140\n4 Sona Rice 4x1850 7400\n4 Bg Rice (R.R) 1.04x4100 4264\n2 Bg Rice (HMT) .52x6200 3224\n2 Bg Rice (Sri) .52x5550 2886\n1 Bg Raha .30x10700 3210\n[struck] 2 Bg Rice (Gobi) .60x4900 2940\n[struck] 30064\n27124/-",
+  "notes": [
+    "Printed page number 24.",
+    "Original total 30064 struck out; revised total 27124 after removing the Gobi rice line."
+  ]
+}
